@@ -1,0 +1,45 @@
+.col-6{
+  width: 50%;
+}
+.slider{
+  background-color: #ED4C5C;
+  &__container{
+
+    color: $primery-color;
+  }
+  &__item{
+    @include baseFont;
+    @include font(26px, 43px);
+    padding-left: 90px;
+    padding-top: 122px;
+  }
+  &__description{
+    @include baseFont;
+    @include font(14px, 140%);
+    padding: 50px 0;
+    padding-left: 90px;
+  }
+  &__link{
+    display: flex;
+    list-style-type: none;
+    padding-left: 90px;
+    padding-bottom: 110px;
+    &-first{
+      cursor: pointer;
+    }
+    &-second{
+      padding: 0 25px;
+      cursor: pointer;
+    }
+    &-third{
+      cursor: pointer;
+    }
+  }
+  &__video{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+  }
+}
+

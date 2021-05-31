@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-6{
+  width: 50%;
+  padding: 0 15px;
+}
+
+.col-4{
+  width: 33.3%;
+  padding: 0 15px;
+}
+.col-3{
+  width: 25%;
+  padding: 0 15px;
+}
+
+$lato : Lato, sans-serif;
+$primery-color : #ffffff;
+
+@mixin baseFont(){
+  font-family: $lato;
+  font-style: normal;
+}
+
+@mixin font($fs, $lh){
+  font-size: $fs;
+  line-height: $lh;
+}
+
+@import "hero";
+@import "header";
+@import "video";
+@import "features";
+@import "technology";
+@import "slider";
+@import "contact";
+@import "footer";
+@import "media";
+
+

@@ -1,0 +1,62 @@
+.header {
+  position: absolute;
+  width: 100%;
+}
+.header__nav {
+  color: #fff;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  font-family: Lato, sans-serif;
+  font-style: normal;
+}
+.header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+}
+.header__title {
+  font-size: 18px;
+  line-height: 22px;
+}
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+  font-size: 14px;
+  line-height: 17px;
+}
+.header__buttton {
+  padding: 12px 28px;
+  border: 1px solid #FFFFFF;
+  border-radius: 6px;
+  background-color: transparent;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #ffffff;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+.header__buttton:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #D52047;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}

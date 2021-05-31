@@ -1,0 +1,42 @@
+.video{
+  padding: 95px 0;
+  &__content{
+    @include baseFont;
+  }
+  &__title{
+    @include font(36px, 43px);
+  }
+  &__description{
+    @include font(14px, 140%);
+    margin: 40px 0 25px;
+  }
+&__link{
+  color: #ED4C5C;
+  text-decoration: none;
+}
+ &__img{
+   background: url("../images/video/Video_bg.png") no-repeat;
+   height: 311px;
+   position: relative;
+ }
+  &__play{
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    background-color: #ED4C5C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    transition: .6s;
+    &:hover{
+      background-color: #ff0814;
+      transition: .6s;
+    }
+  }
+}
+
+

@@ -1,0 +1,78 @@
+.col-6{
+  width: 50%;
+}
+.contact{
+  &__item{
+    @include baseFont;
+    @include font(26px, 43px);
+    padding-top: 117px;
+    padding-left: 116px;
+  }
+  &__description{
+    @include baseFont;
+    @include font(14px, 140%);
+    padding-left: 116px;
+    padding-top: 60px;
+  }
+  &__form{
+    padding-top: 117px;
+    padding-left: 50px;
+    &-firstname{
+      width: 47%;
+      margin: 5px;
+      padding: 20px 10px;
+      border: 1px solid #333333;
+      border-radius: 6px;
+    }
+    &-lastname{
+      width: 47%;
+      margin-left: 15px;
+      padding: 20px 10px;
+      border: 1px solid #333333;
+      border-radius: 6px;
+    }
+    &-number{
+      width: 99%;
+      margin-left: 5px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding: 20px;
+      border: 1px solid #333333;
+      border-radius: 6px;
+    }
+    &-select1{
+      color: rgba(19, 39, 67, 0.5);
+    }
+    &-select{
+      width: 99%;
+      margin: 5px;
+      padding: 20px;
+      border: 1px solid #333333;
+      border-radius: 6px;
+    }
+    &-button{
+      margin-top: 20px;
+      margin-left: 5px;
+      width: 120px;
+      height: 40px;
+      @include baseFont;
+      @include font(12px, 17px);
+      text-transform: uppercase;
+      color: $primery-color;
+      background-color: #ED4C5C;
+      border: none;
+      border-radius: 6px;
+      transition: .6s;
+      cursor: pointer;
+      &:hover{
+        background-color: #ff0814;
+        transition: .6s;
+      }
+    }
+  }
+
+
+}
+
+
+

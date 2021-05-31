@@ -1,0 +1,55 @@
+.col-3{
+  width: 25%;
+}
+.footer{
+  color: #101010;
+
+  &__item{
+    @include baseFont;
+    @include font(18px, 22px);
+    padding-top: 85px;
+    padding-left: 75px;
+  }
+
+  &__description{
+     padding-top: 33px;
+     padding-left: 75px;
+    @include baseFont;
+    @include font(12px, 150%);
+    &-link{
+      cursor: pointer;
+      color: #101010;
+      text-decoration: none;
+    }
+  }
+  &__first{
+    padding-left: 75px;
+    padding-bottom: 2px;
+    cursor: pointer;
+  }
+  &__second{
+      padding-left: 16px;
+    cursor: pointer;
+  }
+  &__third{
+    padding-left: 16px;
+    cursor: pointer;
+  }
+  &__imgvisa{
+    padding-left: 75px;
+    cursor: pointer;
+    }
+  }
+
+
+.copyright{
+  padding-top: 141px;
+  padding-left: 260px;
+  color: #101010;
+  @include baseFont;
+  @include font(12px, 14px);
+  padding-bottom: 86px;
+}
+
+
+
